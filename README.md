@@ -9,7 +9,7 @@
 ### 3. Windows FireWall
 ### 4. Windows Smart Screen(Permanently)
 ### Bypasssing Windows-Defender Techniques :
-## Dont Compile the bat file to exe .. Because Defender will flass as virus.So  use winrar to Create "exe" using "SFXOption"And Choose Encrypt Filename and Set Password For your File.
+## Dont Compile the bat file to exe .. Because Defender will flag as virus.So  use winrar to Create "exe" using "SFXOption"And Choose Encrypt Filename and Set Password For your File.
 ## Use %temp% to extract files in temporary folder
 ## Behind The Scenes :
 ## When Batch file is executed it ask for admin permissions.After getting admin privileage it starts to disable windows defender real time protectin , firewall , smartscreen and starts downloading our backdoor from server and it will placed in startup folder.
