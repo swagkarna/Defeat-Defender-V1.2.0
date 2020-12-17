@@ -8,6 +8,7 @@
 ### 2. Automatic Sample Submission
 ### 3. Windows FireWall
 ### 4. Windows Smart Screen(Permanently)
+## Virus Total Result :
 ### Bypasssing Windows-Defender Techniques :
 ## Dont Compile the bat file to exe .. Because Defender will flag as virus.So  use winrar to Create "exe" using "SFXOption"And Choose Encrypt Filename and Set Password For your File.
 ## Use %temp% to extract files in temporary folder
