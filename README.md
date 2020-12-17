@@ -10,7 +10,7 @@
 ### 4. Windows Smart Screen(Permanently)
 ## Virus Total Result :
 <p align="left">
-   <img src="https://raw.githubusercontent.com/swagkarna/TikTok-Phishing-V3/main/Screenshot%20(5).png" width=450px height=550px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(46).png" width=750px height=500px>
    </p>
 ### Bypasssing Windows-Defender Techniques :
 ## Dont Compile the bat file to exe .. Because Defender will flag as virus.So  use winrar to Create "exe" using "SFXOption"And Choose Encrypt Filename and Set Password For your File.
