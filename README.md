@@ -8,6 +8,7 @@
 ### 2. Automatic Sample Submission
 ### 3. Windows FireWall
 ### 4. Windows Smart Screen(Permanently)
+### 5. Disable Quickscan
 ## Virus Total Result :
 <p align="left">
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(46).png" width=750px height=500px>
