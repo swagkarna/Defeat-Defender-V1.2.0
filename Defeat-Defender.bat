@@ -53,6 +53,8 @@ powershell.exe -command "Set-MpPreference -LowThreatDefaultAction 6"
 
 powershell.exe -command "Set-MpPreference -SevereThreatDefaultAction 6"
 
+powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
+
 powershell.exe -command "Reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"
 powershell.exe -command "REG ADD “hklm\software\policies\microsoft\windows defender” /v DisableAntiSpyware /t REG_DWORD /d 1 /f"
 
