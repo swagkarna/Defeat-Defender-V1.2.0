@@ -9,6 +9,7 @@
 ### 3. Windows FireWall
 ### 4. Windows Smart Screen(Permanently)
 ### 5. Disable Quickscan
+### 6. Add exe file  to exclusions in defender settings
 ## Virus Total Result :
 <p align="left">
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(46).png" width=750px height=500px>
