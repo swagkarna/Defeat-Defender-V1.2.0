@@ -4,7 +4,7 @@
 ## 1. Edit Defeat-Defender.bat on line number 65 and replace the direct url of your payload
 ## 2 Run the Defeat-Defender.bat file . It will ask for Admin Permission.If permission Denied The script wont work...
 ## 3. After it got admin permission it will disable defender 
-### 1. Realtime protection
+### 1. PUAProtection 
 ### 2. Automatic Sample Submission
 ### 3. Windows FireWall
 ### 4. Windows Smart Screen(Permanently)
