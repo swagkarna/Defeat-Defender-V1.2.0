@@ -18,8 +18,8 @@
    
 ### Bypasssing Windows-Defender Techniques :
 ## Recently Windows Introduced new Feature called "Tamper Protection".Which Prevents the disable of real-time protection and modifying defender registry keys using powershell or cmd...If you need to disable real-time protection you need to do manually....But i have done some trick to run our payload without triggering defender even "real-time protection" turned on
-### Adding New Feature :
-### I will add an feature that will bypass tamper protection and disable windows defender services :::
+### Added New Feature :
+### Added a new feature that will bypass tamper protection and disable windows defender services :::
 ## Behind The Scenes :
 ## When Batch file is executed it ask for admin permissions.After getting admin privileage it starts to disable windows defender real time protectin , firewall , smartscreen and starts downloading our backdoor from server and it will placed in startup folder.
 ## The backdoor will be executed after it has downloaded from server..And will be started whenever system starts..
