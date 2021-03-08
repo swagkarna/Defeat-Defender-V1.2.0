@@ -23,6 +23,8 @@
 ## Behind The Scenes :
 ## When Batch file is executed it ask for admin permissions.After getting admin privileage it starts to disable windows defender real time protectin , firewall , smartscreen and starts downloading our backdoor from server and it will placed in startup folder.
 ## The backdoor will be executed after it has downloaded from server..And will be started whenever system starts..
+## Check out this article :
+### https://secnhack.in/create-fud-fully-undetectable-payload-for-windows-10/
 # Note :
 ## If you want to enable Defender Smart Screen.Use Smart Screen.bat file..
 # Discalimer :
