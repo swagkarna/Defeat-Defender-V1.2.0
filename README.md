@@ -48,9 +48,12 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
 # Discalimer :
 ### Use this only for educational Purpose...Love you Guys Bye.....
 ---
-### Thanks to All Stargazers :
+### ❤️Supporters❤️
+
 
 [![Stargazers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/stars/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/stargazers)
+[![Forkers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/forks/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/network/members)
 
+---
 ---
 
