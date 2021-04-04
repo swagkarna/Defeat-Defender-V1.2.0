@@ -28,7 +28,7 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
 
 ---
 ##  Added New Feature :
- Added a new feature that will bypass tamper protection and disable windows defender services :::
+ Added a new feature that will bypass tamper protection and disable windows defender services ::::
 ---
 
 ## Behind The Scenes :
