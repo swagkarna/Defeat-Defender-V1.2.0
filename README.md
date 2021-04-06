@@ -30,7 +30,13 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
 ##  Added New Feature :
  Added a new feature that will bypass tamper protection and disable windows defender services ::::
 ---
-
+## After Running Defeat-Defender Script
+<p align="left">
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(111).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
+   </p>
+Tested on Windows Version 20H2
+---
 ## Behind The Scenes :
 
  When Batch file is executed it ask for admin permissions.After getting admin privileage it starts to disable windows defender real time protectin , firewall , smartscreen and starts  downloading our backdoor from server and it will placed in startup folder.The backdoor will be executed after it has downloaded from server..And will be started whenever system starts..
