@@ -27,15 +27,14 @@
 Recently Windows Introduced new Feature called "Tamper Protection".Which Prevents the disable of real-time protection and modifying defender registry keys using powershell or cmd...If you need to disable real-time protection you need to do manually....But i have done some trick to run our payload without triggering defender even "real-time protection" turned on
 
 ---
-##  Added New Feature :
- Added a new feature that will bypass tamper protection and disable windows defender services ::::
----
 ## After Running Defeat-Defender Script
 <p align="left">
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(111).png" width=750px height=500px>
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
    </p>
+   
 Tested on Windows Version 20H2
+
 ---
 ## Behind The Scenes :
 
