@@ -15,7 +15,7 @@
 ---
 ## Virus Total Result :
 <p align="left">
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(46).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(116).png" width=750px height=500px>
    </p>
  
 ---
