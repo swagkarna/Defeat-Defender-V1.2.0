@@ -52,11 +52,12 @@ Tested on Windows Version 20H2
 ---
 # Discalimer :
 ### Use this only for educational Purpose...Love you Guys Bye.....
+
 ---
 <p align="center">  
-<img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/42796435.png"></img>
+<img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/42796435.png" width="150px" height="150px"></img>
 </p>
-<h2 align="center">Inspired From Raptor-Rat</h2>
+<h2 align="center">Inspired From TechChip</h2>
 
 ---
 ### ❤️Supporters❤️
