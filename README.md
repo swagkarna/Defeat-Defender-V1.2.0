@@ -57,7 +57,7 @@ Tested on Windows Version 20H2
 <p align="center">  
 <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/42796435.png" width="150px" height="150px"></img>
 </p>
-<h2 align="center">Inspired From TechChip</h2>
+<h2 align="center">Inspired From <a href="https://www.youtube.com/channel/UCYS9sTrPpcIVDxz2yVPbuLw">TechChip</a></h2>
 
 ---
 ### ❤️Supporters❤️
