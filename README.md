@@ -53,6 +53,12 @@ Tested on Windows Version 20H2
 # Discalimer :
 ### Use this only for educational Purpose...Love you Guys Bye.....
 ---
+<p align="center">  
+<img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/42796435.png"></img>
+</p>
+<h2 align="center">Inspired From Raptor-Rat</h2>
+
+---
 ### ❤️Supporters❤️
 [![Stargazers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/stars/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/stargazers)
 
