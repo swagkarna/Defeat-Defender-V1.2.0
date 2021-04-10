@@ -54,6 +54,12 @@ Tested on Windows Version 20H2
 ### Use this only for educational Purpose...Love you Guys Bye.....
 
 ---
+
+## Contact :
+<a href=https://discord.gg/JgWNCFNgFc><img src="https://img.shields.io/badge/Discord-swagkarna-orange?style=for-the-badge" /></a>
+<a href=https://www.instagram.com/swagkarna><img src="https://img.shields.io/badge/Instagram-@swagkarna-purple?style=for-the-badge" /></a>
+
+---
 <p align="center">  
 <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/42796435.png" width="150px" height="150px"></img>
 </p>
