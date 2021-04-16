@@ -57,7 +57,7 @@ Tested on Windows Version 20H2
 
 ## Contact :
 <a href=mailto:swagkarna@gmail.com><img src="https://img.shields.io/badge/Gmail-swagkarna-green?style=for-the-badge" /></a>
-<a href=https://www.instagram.com/swagkarna><img src="https://img.shields.io/badge/Instagram-@swagkarna-purple?style=for-the-badge" /></a>
+<a href=https://twitter.com/swagkarna><img src="https://img.shields.io/badge/Twitter-@swagkarna-blue?style=for-the-badge" /></a>
 
 ---
 <p align="center">  
