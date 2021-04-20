@@ -1,7 +1,7 @@
 @echo off
 :: BatchGotAdmin
 ::-------------------------------------
-REM  --> Check for permissionss
+REM  --> Check for permissions
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 
 REM --> If error flag set, we do not have admin.
