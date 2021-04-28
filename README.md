@@ -29,6 +29,7 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
 ---
 ## After Running Defeat-Defender Script
 <p align="left">
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(122).png" width=750px height=500px>
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(111).png" width=750px height=500px>
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
    </p>
