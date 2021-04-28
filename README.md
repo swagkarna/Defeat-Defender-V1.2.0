@@ -72,7 +72,7 @@ Tested on Windows Version 20H2
 
 ---
 
-### Special thanks to  <a href="https://www.linkedin.com/posts/jeffrey-d-howard-6b578225_defeat-defender-powerful-batch-script-to-activity-6792216498413944832-mWEa">Jeffrey-d-howard(Senior Vulnerability Management Lead)</a> For Posting Defeat-Defender on his linked page
+### Special thanks to  <a href="https://www.linkedin.com/posts/jeffrey-d-howard-6b578225_defeat-defender-powerful-batch-script-to-activity-6792216498413944832-mWEa">Jeffrey-d-howard</a>(Senior Vulnerability Management Lead) For Posting Defeat-Defender on his linked page
 
 ---
 ### ❤️Supporters❤️
