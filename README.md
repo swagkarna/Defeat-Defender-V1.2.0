@@ -47,7 +47,7 @@ Tested on Windows Version 20H2
  https://secnhack.in/create-fud-fully-undetectable-payload-for-windows-10/
  
 ---
-## Video Tutorial[spanish] :::
+## Video Tutorial[spanish] :
 ### [![IMAGE ALT TEXT](http://img.youtube.com/vi/eND9q7EpDSk/0.jpg)](http://www.youtube.com/watch?v=eND9q7EpDSk "Defeat-Defender")
 
 ---
