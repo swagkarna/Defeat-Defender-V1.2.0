@@ -71,6 +71,10 @@ Tested on Windows Version 20H2
 <h2 align="center">Inspired From <a href="https://www.youtube.com/channel/UCYS9sTrPpcIVDxz2yVPbuLw">TechChip</a></h2>
 
 ---
+
+### Special thanks to  <a href="https://www.linkedin.com/posts/jeffrey-d-howard-6b578225_defeat-defender-powerful-batch-script-to-activity-6792216498413944832-mWEa">Jeffrey-d-howard(Senior Vulnerability Management Lead)</a> For Posting Defeat-Defender on his linked page
+
+---
 ### ❤️Supporters❤️
 [![Stargazers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/stars/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/stargazers)
 
