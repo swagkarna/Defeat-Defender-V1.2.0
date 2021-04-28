@@ -13,9 +13,9 @@
 6. Add exe file  to exclusions in defender settings
 7. Disable Ransomware Protection
 ---
-## Virus Total Result[8/04/2021] :
+## Virus Total Result[28/04/2021] :
 <p align="left">
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(116).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(121).png" width=750px height=500px>
    </p>
  
 ---
