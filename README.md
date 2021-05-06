@@ -1,7 +1,7 @@
 # Defeat-Defender.
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload 
 ### Usage :
-1. Edit Defeat-Defender.bat on this line https://github.com/swagkarna/Defeat-Defender/blob/2ac4ddd27c8904523589815861338a0686090e97/Defeat-Defender.bat#L82 and replace the direct url of your payload
+1. Edit Defeat-Defender.bat on this <a href="https://github.com/swagkarna/Defeat-Defender/blob/831848de2abb2ccd1fa1ee1d1ab1d0ba9a0c2a4a/Defeat-Defender.bat#L86">line</a>  and replace the direct url of your payload
 2. Run the script "Defeat-Defender.bat" . It will ask for Admin Permission.If permission Granted The script will work Silently and dismantle all protection...
 ---
 ## After it got admin permission it will disable defender 
