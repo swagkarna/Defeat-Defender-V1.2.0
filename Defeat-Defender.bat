@@ -37,14 +37,6 @@ powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
-powershell.exe -command "Set-MpPreference -DisableRealtimeMonitoring $true"
-
-powershell.exe -command "Set-MpPreference -DisableBehaviorMonitoring $true"
-
-powershell.exe -command "Set-MpPreference -DisableBlockAtFirstSeen $true"
-
-powershell.exe -command "Set-MpPreference -DisableIOAVProtection $true"
-
 powershell.exe -command "Set-MpPreference -DisablePrivacyMode $true"
 
 powershell.exe -command "Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true"
