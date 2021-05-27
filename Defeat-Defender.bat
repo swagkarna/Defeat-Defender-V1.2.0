@@ -37,7 +37,6 @@ powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
-powershell.exe -command "Set-MpPreference -DisablePrivacyMode $true"
 
 powershell.exe -command "Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true"
 powershell.exe -command "Set-MpPreference -DisableArchiveScanning $true"
