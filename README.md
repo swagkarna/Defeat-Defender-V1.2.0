@@ -1,4 +1,4 @@
-# This Project is dead and No Longer Works....Bug has been Fixed By Microsoft......
+## This Project is Not  dead  And it will alive after my return to github..Actually i am fewdays away from coding for some reasons..Please Do watch this repo to stay tune..
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload 
 ### Usage :
 1. Edit Defeat-Defender.bat on this <a href="https://github.com/Back-X/Defeat-Defender/blob/a90c99052aaf362ebe6ab2e5c4502f718913b3c6/Defeat-Defender.bat#L90">line</a>  and replace the direct url of your payload
