@@ -50,8 +50,11 @@ Tested on Windows Version 20H2
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
  </p>
  
- Note : After Victim reboot or shutdown his device you will see these following screenshots..`Windefend` will be disabled forever untill Victim Turns on `RestartService` Manually
+---
 
+## Warning :stop_sign::stop_sign::stop_sign: 
+ 
+    This Script will completely Disable `Windefend` Services . And also it is very difficult to revert the changes..Think twice before you run the script
 ---
 ## Behind The Scenes :
 
