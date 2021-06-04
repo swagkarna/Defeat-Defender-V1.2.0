@@ -1,21 +1,23 @@
 <p align="center">
+  <img  width="150" height="150" src="https://raw.githubusercontent.com/swagkarna/hack/master/lion.png"></img>
   <img src="https://raw.githubusercontent.com/swagkarna/hack/master/cooltext385792501049264.png?token=ALEFY7EKFFL3UVE6KRZPK6DAXHCIW"></img>
 </p>
 
 ---
+
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload 
 ### Usage :
-1. Edit Defeat-Defender.bat on this <a href="https://github.com/swagkarna/Defeat-Defender-V1.2/blob/d0dc3ff2fd0982548cb352d814d03062bf719c8f/Defeat-Defender.bat#L81">line</a>  and replace the direct url of your payload
-2. Run the script "Defeat-Defender.bat" . It will ask for Admin Permission.If permission Granted The script will work Silently and dismantle all protection...
+ * Edit Defeat-Defender.bat on this <a href="https://github.com/swagkarna/Defeat-Defender-V1.2/blob/d0dc3ff2fd0982548cb352d814d03062bf719c8f/Defeat-Defender.bat#L81">line</a>  and replace the direct url of your payload
+* Run the script "Defeat-Defender.bat" . It will ask for Admin Permission.If permission Granted The script will work Silently and dismantle all protection...
 ---
 ## After it got admin permission it will disable defender 
- 1. PUAProtection 
- 2. Automatic Sample Submission
- 3. Windows FireWall
- 4. Windows Smart Screen(Permanently)
- 5. Disable Quickscan
-6. Add exe file  to exclusions in defender settings
-7. Disable Ransomware Protection
+ -  PUAProtection 
+ -  Automatic Sample Submission
+ -  Windows FireWall
+ -  Windows Smart Screen(Permanently)
+ -  Disable Quickscan
+ -  Add exe file  to exclusions in defender settings
+ -  Disable Ransomware Protection
 ---
 
 ##  *Proof-Of-Concept*
