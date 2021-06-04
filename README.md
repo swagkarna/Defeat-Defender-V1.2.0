@@ -36,8 +36,6 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
 ## After Running Defeat-Defender Script
 <p align="left">
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(122).png" width=750px height=500px>
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(111).png" width=750px height=500px>
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
    </p>
    
 Tested on Windows Version 20H2
@@ -46,8 +44,8 @@ Tested on Windows Version 20H2
 
 ## After Reboot
 <p align="left">
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(132).png" width=750px height=500px>
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(131).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(111).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(112).png" width=750px height=500px>
  </p>
  
  Note : After Victim reboot or shutdown his device you will see these following screenshots..`Real-Time protection` will be disabled forever untill Victim Turns on `Tamper-Protection` Manually
@@ -62,10 +60,6 @@ Tested on Windows Version 20H2
 ## Check out this article :
  https://secnhack.in/create-fud-fully-undetectable-payload-for-windows-10/
  
----
-## Video Tutorial[spanish] :
-### [![IMAGE ALT TEXT](http://img.youtube.com/vi/eND9q7EpDSk/0.jpg)](http://www.youtube.com/watch?v=eND9q7EpDSk "Defeat-Defender")
-
 ---
 
 # Note :
