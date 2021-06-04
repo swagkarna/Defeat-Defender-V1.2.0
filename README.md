@@ -52,8 +52,7 @@ Tested on Windows Version `21H1`
  
 ---
 
-## Warning :stop_sign::stop_sign::stop_sign: 
- 
+ ## Warning 
   This Script will completely Disable `Windefend` Services . And also it is very difficult to revert the changes..Think twice before you run the script
     
 ---
