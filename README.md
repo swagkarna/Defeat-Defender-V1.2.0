@@ -24,7 +24,7 @@
 
 https://user-images.githubusercontent.com/46685308/120778529-0bb82e80-c544-11eb-9a54-d7f5d30fddd0.mp4
 
- Request : Please Dont upload sample anywhere...Its been fifth time i am again making this script fud 
+ :pray: Please Dont upload sample anywhere...Its been fifth time i am again making this script fud 
  
 ---
 
