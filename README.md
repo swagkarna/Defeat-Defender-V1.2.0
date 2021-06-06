@@ -17,6 +17,7 @@
  -  Windows Smart Screen(Permanently)
  -  Disable Quickscan
  -  Add exe file  to exclusions in defender settings
+ -  Disable UAC(Reboot Required)
  -  Disable Ransomware Protection
 ---
 
