@@ -94,6 +94,6 @@ Tested on Windows Version `21H1`
 [![Stargazers repo roster for @swagkarna/Defeat-Defender-V1.2](https://reporoster.com/stars/swagkarna/Defeat-Defender-V1.2)](https://github.com/swagkarna/Defeat-Defender/stargazers)
 
 [![Forkers repo roster for @swagkarna/Defeat-Defender-V1.2](https://reporoster.com/forks/swagkarna/Defeat-Defender-V1.2)](https://github.com/swagkarna/Defeat-Defender/network/members)
-
+* **If you like the tool and for my personal motivation so as to develop other tools please a +1 star** 
 ---
 
