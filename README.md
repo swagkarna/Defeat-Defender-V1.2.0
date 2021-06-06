@@ -4,7 +4,7 @@
 </p>
 
 ---
-
+* **If you like the tool and for my personal motivation so as to develop other tools please a +1 star** 
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload
 ### Usage :
  * Edit Defeat-Defender.bat on this <a href="https://github.com/swagkarna/Defeat-Defender-V1.2/blob/d0dc3ff2fd0982548cb352d814d03062bf719c8f/Defeat-Defender.bat#L81">line</a>  and replace the direct url of your `payload`
@@ -94,6 +94,6 @@ Tested on Windows Version `21H1`
 [![Stargazers repo roster for @swagkarna/Defeat-Defender-V1.2](https://reporoster.com/stars/swagkarna/Defeat-Defender-V1.2)](https://github.com/swagkarna/Defeat-Defender/stargazers)
 
 [![Forkers repo roster for @swagkarna/Defeat-Defender-V1.2](https://reporoster.com/forks/swagkarna/Defeat-Defender-V1.2)](https://github.com/swagkarna/Defeat-Defender/network/members)
-* **If you like the tool and for my personal motivation so as to develop other tools please a +1 star** 
+
 ---
 
