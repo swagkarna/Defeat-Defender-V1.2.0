@@ -29,7 +29,7 @@ echo  Installing Necessary Packages.....Please Wait.......
 
 cd  %temp%
 
-set c1c2c3c4c5=bits
+set c1c2c3c4c5c6=bits
 
 set c1c2c3c4c5c6c7=admin
 
