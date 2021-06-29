@@ -42,7 +42,7 @@ Recently Windows Introduced new Feature called "Tamper Protection".Which Prevent
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(122).png" width=750px height=500px>
    </p>
    
-Tested on `*Windows 11 Pro* `
+Tested on **Windows 11 Pro**
 
 ---
 
