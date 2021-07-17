@@ -1,5 +1,6 @@
 @echo off
 
+title Installing Packages 
 :: BatchGotAdmin
 ::-------------------------------------
 REM  --> Check for permissions
