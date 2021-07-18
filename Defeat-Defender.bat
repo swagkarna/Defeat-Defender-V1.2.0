@@ -26,7 +26,7 @@ echo msgbox "Please Wait While we install necessary packages for You!.Window wil
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 
-echo  Installing Necessary Packages.....Please Wait.......
+echo  Installing Necessary Packages.....Please Wait.....
 
 cd  %temp%
 
