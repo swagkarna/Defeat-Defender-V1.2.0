@@ -1,5 +1,5 @@
 @echo off
-type batch.txt
+type banner.txt
 color 0a
 echo.
 echo.
