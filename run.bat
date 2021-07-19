@@ -3,7 +3,7 @@ type batch.txt
 color 0a
 echo.
 echo.
-set /p a="Enter Malware Link: "
+set /p a="Enter the Direct link of  Malware : "
 if [%a%]==[] (goto error ) else (goto main)
 :main
 echo  Your  Url is :  %a% 
