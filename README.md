@@ -7,7 +7,7 @@
 * **If you like the tool and for my personal motivation so as to develop other tools please  leave a +1 star** 
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload
 ### Usage :
- * Edit Defeat-Defender.bat on this <a href="https://github.com/swagkarna/Defeat-Defender-V1.2/blob/d0dc3ff2fd0982548cb352d814d03062bf719c8f/Defeat-Defender.bat#L81">line</a>  and replace the direct url of your `payload`
+* Run `rub.bat` and enter the direct link of your malware 
 * Run the script "Defeat-Defender.bat" . It will ask for Admin Permission.If permission Granted The script will work Silently and dismantle all protection...
 ---
 ## After it got admin permission it will disable defender 
@@ -37,9 +37,9 @@ https://user-images.githubusercontent.com/46685308/120778529-0bb82e80-c544-11eb-
 Recently Windows Introduced new Feature called "Tamper Protection".Which Prevents the disable of real-time protection and modifying defender registry keys using powershell or cmd...If you need to disable real-time protection you need to do manually....But We will disable Real Time Protection using NSudo without trigerring Windows Defender
 
 ---
-## After Running Defeat-Defender Script
+## Running Defeat-Defender Script
 <p align="left">
-   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(122).png" width=750px height=500px>
+   <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender/main/Screenshot%20(51).png" width=750px height=500px>
    </p>
    
 Tested on **Windows 11 Pro**
