@@ -19,5 +19,6 @@ echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
 pause
 exit /B 
 :error
+echo.
 echo Please Enter Link And Try Again!!!
 pause
