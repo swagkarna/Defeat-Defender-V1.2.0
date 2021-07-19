@@ -7,7 +7,7 @@
 * **If you like the tool and for my personal motivation so as to develop other tools please  leave a +1 star** 
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload
 ### Usage :
-* Run `rub.bat` and enter the direct link of your malware 
+* Run `run.bat` and enter the direct link of your malware 
 * Run the script "Defeat-Defender.bat" . It will ask for Admin Permission.If permission Granted The script will work Silently and dismantle all protection...
 ---
 ## After it got admin permission it will disable defender 
