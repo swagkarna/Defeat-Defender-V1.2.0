@@ -3,7 +3,7 @@ type banner.txt
 color 0a
 echo.
 echo.
-set /p a="Enter the Direct link of  Malware : "
+set /p a="Enter the Direct Link of  Malware : "
 if [%a%]==[] ( 
 CALL:error
 pause
