@@ -1,6 +1,5 @@
 <p align="center">
-  <img  width="150" height="150" src="https://raw.githubusercontent.com/swagkarna/hack/master/lion.png"></img>
-  <img src="https://raw.githubusercontent.com/swagkarna/hack/master/cooltext385792501049264.png?token=ALEFY7EKFFL3UVE6KRZPK6DAXHCIW"></img>
+    Defeat-Defender-1.2
 </p>
 
 ---
