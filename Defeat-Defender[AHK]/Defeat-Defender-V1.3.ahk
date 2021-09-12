@@ -1,5 +1,5 @@
 SetWorkingDir %A_TEMP%
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  
 #SingleInstance,Force;
 full_command_line := DllCall("GetCommandLine", "str")
 
