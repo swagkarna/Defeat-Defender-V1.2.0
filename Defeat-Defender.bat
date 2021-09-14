@@ -54,14 +54,6 @@ powershell.exe -command "Set-MpPreference -EnableControlledFolderAccess Disabled
 
 powershell.exe -command "Set-MpPreference -PUAProtection disable"
 
-
-powershell.exe -command "Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true"
-powershell.exe -command "Set-MpPreference -DisableArchiveScanning $true"
-
-powershell.exe -command "Set-MpPreference -DisableIntrusionPreventionSystem $true"
-powershell.exe -command "Set-MpPreference -DisableScriptScanning $true"
-powershell.exe -command "Set-MpPreference -SubmitSamplesConsent 2"
-
 powershell.exe -command "Set-MpPreference -HighThreatDefaultAction 6 -Force"
 powershell.exe -command "Set-MpPreference -ModerateThreatDefaultAction 6"
       
