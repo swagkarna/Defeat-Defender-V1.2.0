@@ -19,6 +19,8 @@
  -  Disable Defender Notification (Added Recently)
  -  Disable UAC(Reboot Required)
  -  Disable Ransomware Protection
+ -  Disable TaskManager
+ -  Disable registry etc..
 ---
 
 ##  *Proof-Of-Concept*
