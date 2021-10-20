@@ -28,7 +28,7 @@ del %tmp%\tmp.vbs
 
 echo  Installing Necessary Packages.....Please Wait.....
 
-color 0C
+color 0a
 
 cd  %temp%
 
