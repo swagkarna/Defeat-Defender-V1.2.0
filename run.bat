@@ -28,4 +28,4 @@ echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
 EXIT /B %ERRORLEVEL% 
 :error
 echo.
-echo Please Enter The Link And Try Again!!!
+echo Please Enter The link And Try Again!!!
