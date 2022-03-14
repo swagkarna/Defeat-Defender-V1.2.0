@@ -4,6 +4,7 @@
 
 ---
 * **If you like the tool and for my personal motivation so as to develop other tools please  leave a +1 star** 
+
 ### Powerfull Batch File To Disable Windows Defender,Firewall,Smartscreen And Execute the payload
 ### Usage :
 * Run `run.bat` and enter the direct link of your malware 
