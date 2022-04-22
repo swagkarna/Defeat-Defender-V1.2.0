@@ -2,7 +2,7 @@
 
 title Installing Packages 
 :: BatchGotAdmin
-::-------------------------------------
+::-----------------------------------------
 REM  --> CheckING for permissions
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 
