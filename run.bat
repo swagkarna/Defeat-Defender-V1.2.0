@@ -1,4 +1,5 @@
 @echo off
+
 type banner.txt
 color 0a
 echo.
