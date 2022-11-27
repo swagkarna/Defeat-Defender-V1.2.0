@@ -3,7 +3,6 @@ type banner.txt
 color 0a
 echo.
 
-
 echo.
 set /p a="Enter the Direct Link of malware : "
 if [%a%]==[] ( 
