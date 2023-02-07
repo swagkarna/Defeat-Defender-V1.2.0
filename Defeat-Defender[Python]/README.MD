@@ -5,4 +5,4 @@ And replace the direct url of your malware
 
 The script first check if windows defender real-time protection is turned on . If so it will open a msg box and asks users to disable real-time protection
 
-After real-time protection is disabled the script wlill completely turn off windows defender real time protection and executes the malware
+After real-time protection is disabled the script will completely turn off windows defender real time protection and executes the malware
